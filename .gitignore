@@ -1,23 +1,22 @@
-# .gitignore for Grails
+# .gitignore for Play! framework
 
-# web application files that are overwritten by "grails upgrade"
-#  cf. GRAILS_HOME/scripts/Upgrade.groovy, target( upgrade )
-/web-app/WEB-INF
-
-# IDE support files that are overwritten by "grails upgrade"
-#  cf. GRAILS_HOME/scripts/CreateApp.groovy, target( createIDESupportFiles )
-# to be specific, you could replace "/*" below with your project name,
-#  e.g. "foobar.launch" (no slash)
+# IDE support files
 .classpath
 .project
 .settings
 /*.launch
 /*.tmproj
+/eclipse
 
 # logs
 stacktrace.log
+
+# tests
 /test/reports
 /target
+/tmp
+/test-result
+cobertura.ser
 
 # project release file
 *.war

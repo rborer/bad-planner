@@ -1,0 +1,27 @@
+User(toto.ro@gmail.com):
+   email: toto.ro@gmail.com
+   password: test123
+   firstname: Toto
+   lastname: Ro
+
+User(mickey.mouse@gmail.com):
+    email: mickey.mouse@gmail.com
+    password: test123
+    firstname: Mickey
+    lastname: Mouse
+
+User(bob@gmail.com):
+    email: bob@gmail.com
+    password: secret
+    firstname: Bob
+    lastname: Morane
+
+GameDefinition(bad):
+    description: Jeu de bad des guignolos
+    managers: [bob@gmail.com]
+    participants: [bob@gmail.com, toto.ro@gmail.com]
+
+GameDefinition(gameTest):
+    description: TEST 123
+    managers: [bob@gmail.com, toto.ro@gmail.com]
+    participants: [bob@gmail.com, toto.ro@gmail.com, mickey.mouse@gmail.com]

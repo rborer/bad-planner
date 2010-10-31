@@ -1,0 +1,18 @@
+User(toto.ro@gmail.com):
+   email: toto.ro@gmail.com
+   password: test123
+   firstname: Toto
+   lastname: Ro
+
+User(mickey.mouse@gmail.com):
+    email: mickey.mouse@gmail.com
+    password: test123
+    firstname: Mickey
+    lastname: Mouse
+
+User(bob@gmail.com):
+    email: bob@gmail.com
+    password: secret
+    firstname: Bob
+    lastname: Morane
+    
